@@ -7,6 +7,14 @@
  * Author URI: http://azmind.com
  *
  */
+  @font-face{
+    font-family: Lobster;
+    src:url(../font-awesome/fonts//Lobster-Regular.ttf);
+ }
+  @font-face{
+    font-family: Droid sans;
+    src:url(../font-awesome/fonts//DroidSans-Bold.ttf);
+ }
 body {
     background: #fff;
     text-align: center;
@@ -266,6 +274,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #9d426b
     font-family: 'Lobster', cursive;
     font-size: 45px;
     color: #5d5d5d;
+    margin-top: 40px;
     font-weight: bold;
 }
 
@@ -279,25 +288,26 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #9d426b
 
 .services-container {
 
-    margin-top: 80px;
+    margin-top: 60px;
     background-color:white;
     padding-bottom: 20px;
     box-shadow:;
 }
 
 .services-title {
-	margin-top: 40px;
+	margin-top: 30px;
     background: url(../img/line.png) left center repeat-x;
 }
 
 .services-title h2 {
-    width: 200px;
+    width: 240px;
     margin: 0 auto;
     background: #fff;
-    font-family: 'Lobster', cursive;
-    font-size: 24px;
+    font-family: 'DroidSans', cursive;
+    font-size: 30px;
     color: #5d5d5d;
     font-weight: bold;
+    text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
 
 .service {
@@ -320,16 +330,6 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #9d426b
 
 .service .service-icon i { vertical-align: middle; }
 
-.service h3 {
-    margin-top: 13px;
-    font-family: 'Droid Sans', sans-serif;
-    font-size: 14px;
-    color: #5d5d5d;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 0 1px 0 rgba(255,255,255,.7);
-}
-
 .service p {
     padding-bottom: 7px;
     line-height: 24px;
@@ -339,7 +339,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #9d426b
 /***** Latest work *****/
 
 .work-container {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .work-title {
