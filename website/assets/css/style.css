@@ -15,6 +15,11 @@
     font-family: Droid sans;
     src:url(../font-awesome/fonts//DroidSans-Bold.ttf);
  }
+ }
+  @font-face{
+    font-family: Open sans;
+    src:url(../font-awesome/fonts//OpenSans-Regular.ttf);
+ }
 body {
     background: #fff;
     text-align: center;
