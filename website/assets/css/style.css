@@ -271,6 +271,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #9d426b
 
 /***** Presentation *****/
 
+
 .presentation-container {
     margin-top: 30px;
 }
@@ -301,10 +302,11 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #9d426b
 
 .services-title {
 	margin-top: 30px;
-    background: url(../img/line.png) left center repeat-x;
+    margin-bottom: 30px;
 }
 
 .services-title h2 {
+
     width: 240px;
     margin: 0 auto;
     background: #fff;
@@ -313,11 +315,11 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #9d426b
     color: #5d5d5d;
     font-weight: bold;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
+
 }
 
 .service {
 	margin-top: 40px;
-    padding: 15px 15px 20px 15px;
     background: #f8f8f8;
     border-bottom: 2px solid #9d426b;
 }
@@ -546,25 +548,19 @@ footer {
 
 
 /***** Page title *****/
-
-.page-title-container {
-    margin: 0 auto;
-    padding: 30px 0 35px 0;
-    background: #f8f8f8 url(../img/pattern.jpg) left top repeat;
-    text-align: left;
-    -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset, 0 -5px 15px 0 rgba(0,0,0,.05) inset;
-    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset, 0 -5px 15px 0 rgba(0,0,0,.05) inset;
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset, 0 -5px 15px 0 rgba(0,0,0,.05) inset;
+.page-title-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .page-title-container h1 {
     display: inline;
     margin-left: 10px;
     font-family: 'Lobster', cursive;
-    font-size: 24px;
+    font-size: 40px;
+    margin-top: 20px;
     color: #5d5d5d;
     font-weight: bold;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, .7);
     vertical-align: middle;
 }
 
@@ -734,9 +730,6 @@ footer {
 
 /***** Services full width text *****/
 
-.services-full-width-container {
-    margin-top: 20px;
-}
 
 .services-full-width-text {
     padding-top: 10px;
@@ -755,7 +748,8 @@ footer {
 
 .services-full-width-text p {
     line-height: 28px;
-    font-size: 13px;
+    font-size: 16px;
+    color:rgba(206, 134, 134, 0.86);
 }
 
 /***** Services half width text *****/
@@ -902,4 +896,29 @@ footer {
 .portfolio-box-text p {
     line-height: 24px;
     font-style: italic;
+}
+
+
+/******content****/
+
+
+.col-sm-6{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title h2{
+    text-align: left;
+    color: #781111;
+}
+.services-det .page-content{
+    color:black;
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: left;
+    margin-top: -10px;
+    height:100px;
+}
+.services-det:hover{
+    background-color: #d1cbcb;
 }
