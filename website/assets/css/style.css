@@ -785,6 +785,7 @@ footer {
 .call-to-action-container {
     margin-top: 20px;
     padding-bottom: 50px;
+
 }
 
 .call-to-action-text {
@@ -808,6 +809,7 @@ footer {
     line-height: 30px;
     font-size: 18px;
     font-style: italic;
+    color: #5d5d5d;
 }
 
 .call-to-action-text .call-to-action-button {
@@ -932,4 +934,14 @@ footer {
 }
 .container{
 
+}
+
+.ab h3{
+    color: #6d6d6d;
+}
+.ab p{
+    color: #5d5d5d;
+}
+.ser-col p{
+    color:#5d5d5d;
 }
